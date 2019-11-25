@@ -19,6 +19,12 @@ public interface OIDCLaunchSession {
 	void setNonce(String nonce);
 
 	/**
+	 * Save target_link_uri in session
+	 * @param targetLinkUri target_link_uri to save
+	 */
+	void setTargetLinkUri(String targetLinkUri);
+
+	/**
 	 * Get state from session
 	 * @return saved state
 	 */
@@ -29,4 +35,10 @@ public interface OIDCLaunchSession {
 	 * @return saved nonce
 	 */
 	String getNonce();
+
+	/**
+	 * Get target_link_uri from session
+	 * @return target_link_uri
+	 */
+	String getTargetLinkUri();
 }
