@@ -33,6 +33,7 @@ public enum ClaimsEnum {
 	PRESENTATION("https://purl.imsglobal.org/spec/lti/claim/launch_presentation"),
 	CUSTOM("https://purl.imsglobal.org/spec/lti/claim/custom"),
 	TARGET_LINK_URI("https://purl.imsglobal.org/spec/lti/claim/target_link_uri"),
+	ROLE_SCOPE_MENTOR("https://purlimsglobal.org/spec/lti/claim/role_scope_mentor"),
 
 	// deep linking claims
 	DEPLOYMENT_ID("https://purl.imsglobal.org/spec/lti/claim/deployment_id"),
