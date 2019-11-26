@@ -16,4 +16,5 @@ public class Presentation {
 	private String documentTarget;
 	private int width;
 	private int height;
+	private String returnUrl;
 }
