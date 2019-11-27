@@ -3,6 +3,7 @@ package edu.uoc.lti.deeplink.content;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.time.Instant;
 
@@ -12,6 +13,7 @@ import java.time.Instant;
 @Setter
 @Builder
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString
 public class Duration {
 	private Instant startDate;
 	private Instant endDate;
