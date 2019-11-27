@@ -5,8 +5,6 @@ import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,7 +14,6 @@ import java.util.Map;
 @RequiredArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
 public abstract class Item {
-	@Setter
 	@Getter
 	private final String type;
 
