@@ -11,6 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString(callSuper = true)
 public class ImageItem extends Item {
 	private static String TYPE = "image";
 

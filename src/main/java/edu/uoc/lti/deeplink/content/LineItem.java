@@ -12,6 +12,7 @@ import lombok.Setter;
 @Setter
 @Builder
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString(callSuper = true)
 public class LineItem {
 	/**
 	 * Positive decimal value indicating the maximum score possible for this activity

@@ -10,6 +10,7 @@ import java.time.Instant;
  * @author Xavi Aracil <xaracil@uoc.edu>
  */
 @Setter
+@ToString(callSuper = true)
 public class FileItem extends Item {
 	private static String TYPE = "file";
 

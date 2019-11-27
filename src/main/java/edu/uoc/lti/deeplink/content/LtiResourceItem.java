@@ -15,6 +15,7 @@ import java.util.Map;
 @Setter
 @Getter
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString(callSuper = true)
 public class LtiResourceItem extends Item {
 	private static String TYPE = "ltiResourceLink";
 

@@ -9,6 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString(callSuper = true)
 public class LinkItem extends Item {
 	private static String TYPE = "link";
 

@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * @author Xavi Aracil <xaracil@uoc.edu>
@@ -11,6 +12,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString(callSuper = true)
 public class HtmlItem extends Item {
 	private static String TYPE = "html";
 
