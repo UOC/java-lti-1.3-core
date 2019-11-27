@@ -18,6 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString
 public class Presentation {
 	@JsonProperty("document_target")
 	private String documentTarget;

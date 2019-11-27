@@ -12,6 +12,7 @@ import lombok.Setter;
 @Setter
 @Builder
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString
 public class IFrame {
 	private final String url;
 	private int width;

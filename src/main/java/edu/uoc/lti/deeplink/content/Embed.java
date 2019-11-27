@@ -10,6 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
+@ToString
 public class Embed {
 	private final String html;
 }

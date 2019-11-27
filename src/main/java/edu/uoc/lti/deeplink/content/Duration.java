@@ -12,6 +12,7 @@ import java.time.Instant;
 @Setter
 @Builder
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+@ToString
 public class Duration {
 	private Instant startDate;
 	private Instant endDate;
