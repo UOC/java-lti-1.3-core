@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 /**
  * @author Xavi Aracil <xaracil@uoc.edu>
  */
-@Getter
 @RequiredArgsConstructor
 public enum ActivityProgressEnum {
 	INITIALIZED("Initialized"),
@@ -16,5 +15,6 @@ public enum ActivityProgressEnum {
 	COMPLETED("Completed")
 	;
 
+	@Getter
 	private final String value;
 }

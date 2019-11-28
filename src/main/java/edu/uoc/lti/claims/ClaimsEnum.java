@@ -1,13 +1,12 @@
 package edu.uoc.lti.claims;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.RequiredArgsConstructor;
 
 /**
  * @author Xavi Aracil <xaracil@uoc.edu>
  */
-@AllArgsConstructor
-@Getter
+@RequiredArgsConstructor
 public enum ClaimsEnum {
 	// header claims
 	KID("kid"),
@@ -47,5 +46,6 @@ public enum ClaimsEnum {
 	DEEP_LINKING_DATA("https://purl.imsglobal.org/spec/lti-dl/data")
 	;
 
-	private String name;
+	@Getter
+	private final String name;
 }
