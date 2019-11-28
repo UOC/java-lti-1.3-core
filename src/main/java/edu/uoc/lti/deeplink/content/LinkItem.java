@@ -14,6 +14,7 @@ public class LinkItem extends Item {
 	private static String TYPE = "link";
 
 	private String title;
+	private String text;
 	private final String url;
 	private Image icon;
 	private Image thumbnail;
