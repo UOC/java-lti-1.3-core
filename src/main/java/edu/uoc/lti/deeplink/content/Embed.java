@@ -12,7 +12,6 @@ import lombok.ToString;
 @Setter
 @ToString
 @Builder
-@ToString
 public class Embed {
 	private final String html;
 }
