@@ -18,8 +18,8 @@ public class DeepLinkingResponse {
 	private final String clientId;
 	private final String azp;
 
-	private final String kid;
 	private final String deploymentId;
+	private final String nonce;
 	private final String data;
 	private final List<Item> itemList;
 
