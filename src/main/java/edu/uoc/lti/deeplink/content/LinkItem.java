@@ -29,9 +29,10 @@ public class LinkItem extends Item {
 	}
 
 	@Builder
-	public LinkItem(String title, String url, Image icon, Image thumbnail) {
+	public LinkItem(String title, String url, String text, Image icon, Image thumbnail) {
 		this(url);
 		this.title = title;
+		this.text = text;
 		this.icon = icon;
 		this.thumbnail = thumbnail;
 	}
