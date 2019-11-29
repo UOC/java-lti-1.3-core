@@ -1,11 +1,13 @@
 package edu.uoc.lti.ags;
 
+import java.net.URI;
 import java.util.List;
 
 /**
  * @author Xavi Aracil <xaracil@uoc.edu>
  */
-public interface LinteItemAgsClient {
+public interface LineItemServiceClient {
+	void setServiceUri(URI uri);
 
 	/**
 	 * Get the line items of the platform
