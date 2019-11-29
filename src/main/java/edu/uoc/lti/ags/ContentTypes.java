@@ -8,8 +8,10 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 public enum ContentTypes {
-	ITEM("application", "vnd.ims.lis.v2.lineitem+json"),
-	CONTAINER("application", "vnd.ims.lis.v2.lineitemcontainer+json")
+	LINE_ITEM("application", "vnd.ims.lis.v2.lineitem+json"),
+	LINE_ITEM_CONTAINER("application", "vnd.ims.lis.v2.lineitemcontainer+json"),
+	RESULT("application", "vnd.ims.lis.v2.resultcontainer+json"),
+	SCORE("application", "application/vnd.ims.lis.v1.score+json")
 	;
 
 	@Getter
