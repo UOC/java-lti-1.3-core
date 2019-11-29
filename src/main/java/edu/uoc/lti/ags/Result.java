@@ -1,6 +1,7 @@
 package edu.uoc.lti.ags;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,6 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class Result {
 	/**
 	 * URL end point for the resource. It must be present on all responses containing the resource and may be used for subsequent operations on that resource.

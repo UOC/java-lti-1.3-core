@@ -1,6 +1,7 @@
 package edu.uoc.lti.ags;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
@@ -13,6 +14,7 @@ import java.time.Instant;
 @Setter
 @Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class Score {
 	/**
 	 * Recipient of the score, usually a student. Must be present when publishing a score update through Scores

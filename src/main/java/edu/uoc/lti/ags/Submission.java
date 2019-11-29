@@ -1,6 +1,7 @@
 package edu.uoc.lti.ags;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Setter;
 
 import java.time.Instant;
@@ -10,6 +11,7 @@ import java.time.Instant;
  */
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
+@JsonInclude(JsonInclude.Include.NON_EMPTY)
 public class Submission {
 	/**
 	 * Date and time in ISO 8601 format when a submission can start being submitted by learner
