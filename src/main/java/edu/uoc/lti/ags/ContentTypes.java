@@ -11,7 +11,7 @@ public enum ContentTypes {
 	LINE_ITEM("application", "vnd.ims.lis.v2.lineitem+json"),
 	LINE_ITEM_CONTAINER("application", "vnd.ims.lis.v2.lineitemcontainer+json"),
 	RESULT("application", "vnd.ims.lis.v2.resultcontainer+json"),
-	SCORE("application", "application/vnd.ims.lis.v1.score+json")
+	SCORE("application", "vnd.ims.lis.v1.score+json")
 	;
 
 	@Getter
