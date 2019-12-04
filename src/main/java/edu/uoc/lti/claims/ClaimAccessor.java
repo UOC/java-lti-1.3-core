@@ -3,7 +3,7 @@ package edu.uoc.lti.claims;
 import java.util.Date;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 public interface ClaimAccessor {
 

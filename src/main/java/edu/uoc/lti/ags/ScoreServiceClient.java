@@ -1,7 +1,7 @@
 package edu.uoc.lti.ags;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 public interface ScoreServiceClient {
 	/**

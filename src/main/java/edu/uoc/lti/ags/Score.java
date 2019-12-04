@@ -9,7 +9,7 @@ import lombok.Setter;
 import java.time.Instant;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 @Setter
 @Builder

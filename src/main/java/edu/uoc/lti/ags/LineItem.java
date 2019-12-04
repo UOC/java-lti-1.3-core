@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 @Data
 @NoArgsConstructor

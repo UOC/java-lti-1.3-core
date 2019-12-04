@@ -4,7 +4,7 @@ package edu.uoc.lti.oidc;
  * Represents a session for storing OIDC launch params (currently state and nonce)
  * A tool rely on this to allow OIDC launches. So, a conformant class must be passed to the tool as a constructor
  * parameter
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 public interface OIDCLaunchSession {
 	/**

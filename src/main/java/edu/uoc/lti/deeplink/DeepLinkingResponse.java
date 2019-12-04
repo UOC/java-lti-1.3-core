@@ -9,7 +9,7 @@ import java.util.List;
 import edu.uoc.lti.deeplink.content.Item;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 @RequiredArgsConstructor
 @Getter

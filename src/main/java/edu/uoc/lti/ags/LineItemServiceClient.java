@@ -4,7 +4,7 @@ import java.net.URI;
 import java.util.List;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 public interface LineItemServiceClient {
 	void setServiceUri(URI uri);

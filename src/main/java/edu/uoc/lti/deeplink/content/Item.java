@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author Xavi Aracil <xaracil@uoc.edu>
+ * @author Created by xaracil@uoc.edu
  */
 @RequiredArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
