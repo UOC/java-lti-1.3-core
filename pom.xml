@@ -35,6 +35,12 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+	<scm>
+		<connection>scm:git:git@devel.elearnlab.org:elearn/lti-1.3-shared.git</connection>
+		<developerConnection>scm:git:git@devel.elearnlab.org:elearn/lti-1.3-shared.git</developerConnection>
+		<url>https://devel.elearnlab.org/elearn/lti-1.3-shared</url>
+	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
