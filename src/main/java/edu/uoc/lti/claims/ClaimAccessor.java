@@ -64,7 +64,7 @@ public interface ClaimAccessor {
 	 * @param name claim to get
 	 * @param returnClass type to return claim as
 	 * @param <T> type to return claim as
-	 * @return object of type <T> with claim's content or null if not found
+	 * @return object of type T with claim's content or null if not found
 	 */
 	<T> T get(ClaimsEnum name, Class<T> returnClass);
 }
