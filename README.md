@@ -10,9 +10,9 @@ Install it using maven:
 ./mvnw install
 ```
 
-## Usages
+## Usage
 
-Just add the dependency to your `pom.xml` file: 
+Just add the dependency to your `pom.xml` file:
 
 ```xml
   <dependency>
