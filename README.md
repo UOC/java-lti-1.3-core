@@ -10,9 +10,40 @@ Install it using maven:
 ./mvnw install
 ```
 
-## Documentation
+## Usages
 
-Coming soon.
+Just add the dependency to your `pom.xml` file: 
+
+```xml
+  <dependency>
+    <groupId>edu.uoc.elc.lti</groupId>
+    <artifactId>lti-1.3-core</artifactId>
+    <version>0.0.1</version>
+  </dependency>
+```
+
+## About
+
+It defines basic interfaces for you to implement in order to adapt the LTI Library to your needs:
+
+* `edu.uoc.lti.claims.ClaimAccessor` for accesing the claims in a JWT
+
+* `edu.uoc.lti.oidc.OIDCLaunchSession` for storing and gettings the attributes of the OIDC Launch
+
+* `edu.uoc.lti.accesstoken.AccessTokenRequestBuilder` for creating the access token request.
+
+  This package comes with two implementations: `edu.uoc.lti.accesstoken.JSONAccessTokenRequestBuilderImpl` for `application/json` requests (IMS's reference implementation expect this) and `edu.uoc.lti.accesstoken.UrlEncodedFormAccessTokenRequestBuilderImpl` for `application/x-www-form-urlencoded` requests (IMS certification site expects this).
+
+* `edu.uoc.lti.clientcredentials.ClientCredentialsTokenBuilder` for creating the JWT to send to the platform for getting the AccessToken
+
+* `edu.uoc.lti.deeplink.DeepLinkingTokenBuilder` for creating the JWT to send to the platform for creating a DeepLink item
+
+* `edu.uoc.lti.ags.LineItemServiceClient` for accesing Assignment and Grades Service's [Line Item Service](https://www.imsglobal.org/spec/lti-ags/v2p0/#line-item-service)
+
+* `edu.uoc.lti.ags.ResultServiceClient` for accesing Assignment and Grades Service's [Result Service](https://www.imsglobal.org/spec/lti-ags/v2p0/#result-service)
+
+* `edu.uoc.lti.ags.ScoreServiceClient` for accessing
+Assignment and Grades Service's [Score Publish Service](https://www.imsglobal.org/spec/lti-ags/v2p0/#score-publish-service)
 
 ## Contributing
 
