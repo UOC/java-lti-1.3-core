@@ -1,14 +1,15 @@
 package edu.uoc.lti.deeplink.content;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * @author Created by xaracil@uoc.edu

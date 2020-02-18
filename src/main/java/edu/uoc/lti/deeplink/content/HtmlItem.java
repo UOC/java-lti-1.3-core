@@ -1,6 +1,7 @@
 package edu.uoc.lti.deeplink.content;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
