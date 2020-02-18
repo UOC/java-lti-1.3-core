@@ -2,6 +2,7 @@ package edu.uoc.lti.ags;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;

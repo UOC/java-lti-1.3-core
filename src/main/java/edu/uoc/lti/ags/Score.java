@@ -1,12 +1,13 @@
 package edu.uoc.lti.ags;
 
+import java.time.Instant;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.Instant;
 
 /**
  * @author Created by xaracil@uoc.edu

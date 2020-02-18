@@ -1,11 +1,12 @@
 package edu.uoc.lti.deeplink.content;
 
+import java.time.Instant;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
+
 import lombok.Builder;
 import lombok.Setter;
 import lombok.ToString;
-
-import java.time.Instant;
 
 /**
  * @author Created by xaracil@uoc.edu

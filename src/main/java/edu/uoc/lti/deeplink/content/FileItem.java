@@ -1,11 +1,11 @@
 package edu.uoc.lti.deeplink.content;
 
+import java.time.Instant;
+
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
-import java.time.Instant;
 
 /**
  * @author Created by xaracil@uoc.edu

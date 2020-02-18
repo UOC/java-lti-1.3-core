@@ -1,12 +1,11 @@
 package edu.uoc.lti.deeplink;
 
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
-
 import java.util.List;
 
 import edu.uoc.lti.deeplink.content.Item;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 /**
  * @author Created by xaracil@uoc.edu
