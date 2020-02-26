@@ -1,12 +1,12 @@
 package edu.uoc.lti.accesstoken;
 
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Value;
 
 /**
  * @author Created by xaracil@uoc.edu
  */
-@Getter
+@Value
 @Builder
 public class AccessTokenRequest {
 	private String grant_type;
