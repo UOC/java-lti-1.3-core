@@ -1,5 +1,6 @@
 package edu.uoc.lti.deeplink.content;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -19,6 +20,12 @@ import lombok.ToString;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_EMPTY)
+/*
+ * To fix an issue with Moodle 3.8 
+ * Moodle adds "locale". The @JsonIgnoreProperties annotation ignores unknown property
+ * @author heutelbeck
+ */
+@JsonIgnoreProperties(ignoreUnknown = true)
 @ToString
 public class Presentation {
 	@JsonProperty("document_target")
