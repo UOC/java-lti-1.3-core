@@ -11,8 +11,9 @@ Install it using maven:
 ```
 
 ## Usage
+1. Set your maven installation to work with Github packages, following https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages#authenticating-to-github-packages
 
-Just add the dependency to your `pom.xml` file:
+2. Add the dependency to your `pom.xml` file:
 
 ```xml
   <dependency>
