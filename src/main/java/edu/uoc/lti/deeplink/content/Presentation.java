@@ -27,4 +27,6 @@ public class Presentation {
 	private int height;
 	@JsonProperty("return_url")
 	private String returnUrl;
+	@JsonProperty("locale")
+	private String locale;	
 }
