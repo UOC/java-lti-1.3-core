@@ -19,7 +19,7 @@ Install it using maven:
         <repository>
           <id>github-uoc</id>
           <name>GitHub UOC Apache Maven Packages</name>
-          <url>https://maven.pkg.github.com/uoc</url>
+          <url>https://maven.pkg.github.com/uoc/java-lti-1.3-core</url>
         </repository>				
   ```
 2. Add the dependency to your `pom.xml` file:
