@@ -1,5 +1,6 @@
 package edu.uoc.lti.namesrole;
 
+import edu.uoc.lti.ContentTypeable;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -7,7 +8,7 @@ import lombok.RequiredArgsConstructor;
  * @author Created by xaracil@uoc.edu
  */
 @RequiredArgsConstructor
-public enum ContentTypes {
+public enum ContentTypes implements ContentTypeable {
 	REQUEST("application", "vnd.ims.lti-nrps.v2.membershipcontainer+json"),
 	RESPONSE("application", "vnd.ims-nrps.v2.membershipcontainer+json")
 	;
