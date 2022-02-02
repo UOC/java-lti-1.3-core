@@ -1,5 +1,6 @@
 package edu.uoc.lti.ags;
 
+import edu.uoc.lti.ContentTypeable;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
@@ -7,7 +8,7 @@ import lombok.RequiredArgsConstructor;
  * @author Created by xaracil@uoc.edu
  */
 @RequiredArgsConstructor
-public enum ContentTypes {
+public enum ContentTypes implements ContentTypeable {
 	LINE_ITEM("application", "vnd.ims.lis.v2.lineitem+json"),
 	LINE_ITEM_CONTAINER("application", "vnd.ims.lis.v2.lineitemcontainer+json"),
 	RESULT("application", "vnd.ims.lis.v2.resultcontainer+json"),
