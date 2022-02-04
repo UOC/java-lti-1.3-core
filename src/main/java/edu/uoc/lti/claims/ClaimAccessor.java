@@ -1,6 +1,7 @@
 package edu.uoc.lti.claims;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author Created by xaracil@uoc.edu
@@ -28,10 +29,10 @@ public interface ClaimAccessor {
 	String getSubject();
 
 	/**
-	 * Get the audience
+	 * Get the audiences
 	 * @return claim content identifying the audience
 	 */
-	String getAudience();
+	List<String> getAudiences();
 
 
 	/**
