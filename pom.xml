@@ -4,7 +4,7 @@
 
 	<groupId>edu.uoc.elc.lti</groupId>
 	<artifactId>lti-13-core</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
   <name>${project.groupId}:${project.artifactId}</name>
