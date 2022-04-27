@@ -25,6 +25,18 @@ public interface OIDCLaunchSession {
 	void setTargetLinkUri(String targetLinkUri);
 
 	/**
+	 * Save clientId in session
+	 * @param clientId clientId to save
+	 */
+	void setClientId(String clientId);
+
+	/**
+	 * Save deploymentId in session
+	 * @param deploymentId deploymentId to save
+	 */
+	void setDeploymentId(String deploymentId);
+
+	/**
 	 * Get state from session
 	 * @return saved state
 	 */
@@ -41,4 +53,16 @@ public interface OIDCLaunchSession {
 	 * @return target_link_uri
 	 */
 	String getTargetLinkUri();
+
+	/**
+	 * Get clientId from session
+	 * @return saved clientId
+	 */
+	String getClientId();
+
+	/**
+	 * Get deploymentId from session
+	 * @return saved deploymentId
+	 */
+	String getDeploymentId();
 }

@@ -1,4 +1,4 @@
-package edu.uoc.lti.namesrole;
+package edu.uoc.lti.groups;
 
 import edu.uoc.lti.ContentTypeable;
 import lombok.Getter;
@@ -9,8 +9,8 @@ import lombok.RequiredArgsConstructor;
  */
 @RequiredArgsConstructor
 public enum ContentTypes implements ContentTypeable {
-	REQUEST("application", "vnd.ims.lti-nrps.v2.membershipcontainer+json"),
-	RESPONSE("application", "vnd.ims-nrps.v2.membershipcontainer+json")
+	GROUP("application", "vnd.ims.lti-gs.v1.contextgroupcontainer+json"),
+	SET("application", "application/vnd.ims.lti-gs.v1.contextgroupsetcontainer+json")
 	;
 
 	@Getter

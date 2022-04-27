@@ -43,7 +43,10 @@ public enum ClaimsEnum {
 	DEEP_LINKING_LOG("https://purl.imsglobal.org/spec/lti-dl/claim/log"),
 	DEEP_LINKING_ERROR_MESSAGE("https://purl.imsglobal.org/spec/lti-dl/claim/errormsg"),
 	DEEP_LINKING_ERROR_LOG("https://purl.imsglobal.org/spec/lti-dl/claim/errorlog"),
-	DEEP_LINKING_DATA("https://purl.imsglobal.org/spec/lti-dl/claim/data")
+	DEEP_LINKING_DATA("https://purl.imsglobal.org/spec/lti-dl/claim/data"),
+
+	// group set claim
+	GROUPS_SERVICE("https://purl.imsglobal.org/spec/lti-gs/claim/groupsservice")
 	;
 
 	@Getter
