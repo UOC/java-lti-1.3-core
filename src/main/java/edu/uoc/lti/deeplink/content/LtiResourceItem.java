@@ -101,11 +101,4 @@ public class LtiResourceItem extends Item {
 		this.custom = custom;
 	}
 
-	public void setCustom(String key, Object value) {
-		this.custom.put(key, value);
-	}
-
-	public Object getCustom(String key) {
-		return this.custom.get(key);
-	}
 }
