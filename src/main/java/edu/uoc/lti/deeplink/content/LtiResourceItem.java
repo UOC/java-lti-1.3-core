@@ -87,7 +87,7 @@ public class LtiResourceItem extends Item {
 	}
 
 	@Builder
-	public LtiResourceItem(String title, String url, Presentation presentation, Image icon, Image thumbnail, Window window, IFrame iFrame, Duration available, Duration submission) {
+	public LtiResourceItem(String title, String url, Presentation presentation, Image icon, Image thumbnail, Window window, IFrame iFrame, Duration available, Duration submission, Map<String, Object> custom) {
 		this();
 		this.title = title;
 		this.url = url;
@@ -98,6 +98,7 @@ public class LtiResourceItem extends Item {
 		this.iFrame = iFrame;
 		this.available = available;
 		this.submission = submission;
+		this.custom = custom;
 	}
 
 	public void setCustom(String key, Object value) {
