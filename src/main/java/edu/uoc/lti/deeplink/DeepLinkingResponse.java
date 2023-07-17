@@ -16,6 +16,7 @@ import edu.uoc.lti.deeplink.content.Item;
 public class DeepLinkingResponse {
 	private final String platformName;
 	private final String clientId;
+	private final String kid;
 	private final String azp;
 
 	private final String deploymentId;
