@@ -43,10 +43,10 @@ public class Score {
 	/**
 	 * Date and time when the score was modified in the tool. Should use subsecond precision.
 	 */
-	private Instant timeStamp;
+	private Instant timestamp;
 
-	public String getTimeStamp() {
-		return timeStamp != null ? timeStamp.toString() : null;
+	public String getTimestamp() {
+		return timestamp != null ? timestamp.toString() : null;
 	}
 
 	/**
